@@ -123,11 +123,7 @@ p{
 }
 
 @media screen and (max-width: 824px){
-    header .container{
-        display: block;
-    }
-
-    .logo{
-        
+    .menu nav a{
+        padding-right: 5%;
     }
 }
