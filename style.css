@@ -59,7 +59,7 @@ header{
 .menu nav a{
     color: white;
     text-decoration: none;
-    padding-right: 50px;
+    padding-right: 12%;
     font-size: 18px;
     position: relative;
 }
@@ -86,7 +86,7 @@ header{
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 5%;
 }
 
 .sociais button i{
@@ -120,4 +120,14 @@ p{
     margin: auto;
     display: block;
     width: 60%;
+}
+
+@media screen and (max-width: 824px){
+    header .container{
+        display: block;
+    }
+
+    .logo{
+        
+    }
 }
