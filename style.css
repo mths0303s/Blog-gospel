@@ -133,7 +133,11 @@ img{
     margin-top: 5%;
 }
 
-@media screen and (max-width: 824px){
+@media screen and (max-width: 900px){
+    main{
+        margin-top: 0px;
+        border-radius: 0px;
+    }
     .menu nav a{
         padding-right: 5%;
     }
@@ -158,7 +162,7 @@ img{
         margin-top: -10px;
     }
 
-    .menu {
+    .menu{
         width: 20%;
         display: flex; /* Adiciona flexbox */
         justify-content: center; /* Centraliza os itens */
