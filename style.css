@@ -19,7 +19,7 @@ main{
     padding: auto;
     border-radius: 20px;
     margin-top: 15px;
-}       
+}  
 
 .container{
     max-width: 1000px;
@@ -27,6 +27,11 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -40px;
+}
+
+.logo{
+    margin-left: 25%;
 }
 
 header{
@@ -54,6 +59,7 @@ header{
 
 .menu{
     width: 50%;
+    margin-left: 32%;
 }
 
 .menu nav a{
@@ -125,5 +131,46 @@ p{
 @media screen and (max-width: 824px){
     .menu nav a{
         padding-right: 5%;
+    }
+
+    .logo{
+        margin-left: 1%;
+    }
+
+    .sociais{
+        padding: 2px;
+        display: block;
+        margin-left: 65%;
+        margin-top: -38px;
+        margin-bottom: -10px;
+    }
+
+    .sociais button{
+        margin-bottom: 5px;
+    }
+
+    .container{
+        margin-top: -10px;
+    }
+
+    .menu {
+        width: 20%;
+        display: flex; /* Adiciona flexbox */
+        justify-content: center; /* Centraliza os itens */
+        margin-left: 20%;
+        margin-right: -15%;
+    }
+    
+    .menu nav {
+        display: flex; /* Garante que os links fiquem lado a lado */
+        gap: 2px; /* Espaçamento entre os links */
+    }
+    
+    .menu nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        position: relative;
+        display: inline-flex; /* Garante que fiquem lado a lado */
     }
 }
