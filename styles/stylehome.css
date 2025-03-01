@@ -2,6 +2,7 @@
     background-image: url(../img/topo.webp);
     background-size: cover;
     background-position: center;;
+    padding-bottom: 20px;
 }
 .principal h1, .principal h3{
     color: white;
