@@ -1,0 +1,27 @@
+.principal{
+    background-image: url(../img/topo.webp);
+    background-size: cover;
+    background-position: center;;
+}
+.principal h1, .principal h3{
+    color: white;
+    text-align: center;
+}
+
+.principal h3{
+    margin-top: -2%;
+    font-size: 17px;
+}
+
+.blocoTextos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adicionando um gap para melhor visualização */
+}
+
+.bloco{
+    margin: 4%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
