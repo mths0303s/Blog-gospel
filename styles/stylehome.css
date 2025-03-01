@@ -1,23 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+body{
+    background-color: rgb(32, 0, 51)
+}
 .principal{
-    background-image: url(../img/topo.webp);
+    background-image: url(../img/jovens.jpg);
     background-size: cover;
-    background-position: center;;
-    padding-bottom: 20px;
+    background-position: center;
+    padding-top: 250px;
+    padding-bottom: 200px;
 }
 .principal h1, .principal h3{
     color: white;
     text-align: center;
 }
 
+.principal h1{
+    margin-top: -90px;
+    font-size: 50px;
+}
+
 .principal h3{
-    margin-top: -2%;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .blocoTextos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px; /* Adicionando um gap para melhor visualização */
+    opacity: 0.8;
 }
 
 .bloco{
@@ -25,4 +40,15 @@
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+}
+
+.principal2{
+    background-image: url(../img/pessoasadorando.jpg);
+}
+
+@media screen and (max-width: 1000px){
+    .blocoTextos{
+        grid-template-columns: 1fr;
+    }
+    
 }
