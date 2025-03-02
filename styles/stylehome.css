@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
 }
+
 body{
-    background-color: rgb(32, 0, 51)
+    background-color: black;
 }
+
 .principal{
     background-image: url(../img/jovens.jpg);
     background-size: cover;
@@ -44,6 +46,54 @@ body{
 
 .principal2{
     background-image: url(../img/pessoasadorando.jpg);
+}
+
+.apresentacao{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 4%;
+    color: white;
+    justify-content: center;
+}
+
+.apresentacao h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.NomeFotoCargo h1{
+    margin-bottom: -40px;
+}
+.NomeFotoCargo img{
+    max-width: 100%;
+    border-radius: 20px;
+    margin: auto;
+}
+.descricao p{
+    margin: auto;
+    margin-right: -10%;
+    background-color: white;
+    gap: 10px; /* Adicionando um gap para melhor visualização */
+    opacity: 0.8;
+    color: black;
+    padding-bottom: 20px;
+    max-width: 100%;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 5.7%;
+}
+
+#h1{
+    text-align: center;
+    color: white;
+    margin-bottom: -70px;
+}
+
+.terceiraParte{
+    background: linear-gradient(rgb(66, 66, 66), rgb(0, 0, 0));
 }
 
 @media screen and (max-width: 1000px){
