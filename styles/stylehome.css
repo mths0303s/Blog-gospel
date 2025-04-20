@@ -58,14 +58,14 @@ body{
 }
 
 .principal h1{
-    margin-left: -9%;
+    margin-left: -13%;
     align-items: center;
     margin-top: -90px;
     font-size: 50px;
 }
 
 .principal h3{
-    margin-left: -18%;
+    margin-left: -13%;
     font-size: 20px;
 }
 
@@ -87,7 +87,7 @@ body{
     width: 120%;
     height: 120%;
     object-fit: cover;
-    background-image: url(../img/pessoasadorando.jpg);
+    background-image: url(../img/homemadorando.jpg);
 }
 
 .apresentacao{
