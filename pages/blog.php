@@ -1,34 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a517964f1a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../styles/styleblog.css">
-    <title>Iepuc Sede</title>
-</head>
 <body>
-    <header>
-        <div class="topo">
-            <div class="logo"><i class="fa-solid fa-book-open"></i> <span>IEPUC</span></div>
-            <div class="container">
-                <div class="menu">
-                    <nav>
-                        <a href="index.html">Home</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="#">Sobre</a>
-                        <a href="#">Contato</a>
-                    </nav>
-                </div>
-                <div class="sociais">
-                    <button><a href="https://www.instagram.com/iepuc.sede?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram"></i></a></button>
-                    <button><a href="https://www.youtube.com/@MatheusAraujoYTChannel/videos" target="_blank"><i class="fa-brands fa-youtube"></i></a></button>
-                    <button><a href="https://www.facebook.com/igrejauniao" target="_blank"><i class="fa-brands fa-facebook"></i></a></button>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include_once("../includes/header.php"); echo "<style>
+    header {
+        margin-top: -15px;
+    }
+</style>";?>
 
+    <?php include_once("../includes/botaoWhatsapp.php"); ?>
     <main>
         <h1>
             Parábola dos talentos
