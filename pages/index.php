@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a517964f1a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styleblog.css">
     <link rel="stylesheet" href="../styles/stylehome.css">
     <title>Iepuc Sede</title>
 </head>
 <body>
-    <php include("../includes/botaowhatsapp.php"); ?>
+    <?php include_once("../includes/botaoWhatsapp.php"); ?>
     <header>
         <div class="topo">
             <div class="logo"><i class="fa-solid fa-book-open"></i> <span>IEPUC</span></div>
