@@ -8,7 +8,7 @@
                 <source src="../img/aviva.mp4" type="video/mp4">
                 Seu navegador não suporta vídeos HTML5.
                 </video>
-                <div class="conteudo">
+                <div class="conteudo" style="margin-top: 15%;">
                 <h1>Seja Bem vindo</h1>
                 <p>Junte-se a nós nessa experiência!</p>
                 </div>
@@ -40,7 +40,7 @@
 
         <div data-aos="fade-left" data-aos-offset="300"
         data-aos-easing="ease-in-sine" class="principal conteudo principal2">
-            <h1>Faça parte da nossa comunidade</h1>
+            <h1>Faça parte da nossa comunidade!</h1>
             <h3>
                 Participe dos nossos cultos todas as terças e quintas às 19h30, sábados à conferir e domingos às 18h30.<br>
                 Venha nos visitar e conhecer mais sobre a nossa missão e visão. Estamos ansiosos para te receber!<br>
